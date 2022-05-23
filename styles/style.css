@@ -36,7 +36,7 @@ nav ul {
   background-color: rgb(254, 233, 114);
 }
 nav li {
-    margin: 10px 30px 10px 10px;
+    margin: 10px 10px 10px 10px;
     font-size: 20px;
     font-weight: 100;
 }
@@ -47,11 +47,12 @@ nav li a {
 }
 .push-left {
   margin-right: auto;
+  margin-left: -20px;
 }
     
 
 .links {
-  margin-left: 50px;
+  margin-left: 20px;
   margin-top: 50px;
 }
 
@@ -60,12 +61,13 @@ nav li a {
 .title-container{
   position: relative;
   top: 30vh;
+  text-align: center;
 }
 
 h1 {
   font-size: 150px;
   font-weight: 100;
-  letter-spacing: 10px;
+  letter-spacing: 1px;
 }
 h4 {
   font-size: 40px;
@@ -76,7 +78,11 @@ h4 {
 
 .arrow-down {
   margin-top: 80px;
+}
 
+a {
+  text-decoration: none;
+  color: black;
 }
 /* A B O U T   M E  S T Y L I N G */
 .about {
@@ -102,7 +108,7 @@ h3 {
 .bio {
   font-weight: 100;
   color: rgb(85, 85, 85);
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 1px;
 }
@@ -118,7 +124,14 @@ h3 {
   max-height: 70vh; 
 }
 
-
+.cv-button {
+  background-color: rgb(254, 233, 114);
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px;
+  fon
+}
 
 /* button:hover {
   background-color:rgb(224, 204, 89);
@@ -128,10 +141,24 @@ h3 {
 
 /* s k i l l s   S T Y L I N G */
 
-.skills {
+.skill-section {
   height: 50vh;
 }
 
+.skills {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+
+}
+
+
+.icon-container {
+  display: block
+
+}
 /* P O R T F O L I O   S T Y L I N G */
 .portfolio {
 
@@ -194,6 +221,10 @@ footer {
     font-weight: 100;
   }
 
+  .logo-container {
+    text-align: left;
+  }
+
   .title-container{
     margin-left: 5vw;
     position: relative;
@@ -204,12 +235,16 @@ footer {
     font-size: 90px;
     font-weight: 100;
     letter-spacing: 0px;
+    text-align: left;
   }
   h4 {
     font-size: 20px;
     margin-top: 50px;
     font-weight: 100;
     letter-spacing: 0px;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   
 /* A B O U T   M E  S T Y L I N G */
