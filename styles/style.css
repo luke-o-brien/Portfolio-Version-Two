@@ -84,6 +84,10 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.link-icon {
+  margin: 30px;
+}
 /* A B O U T   M E  S T Y L I N G */
 .about {
   height: 100vh;
@@ -141,9 +145,7 @@ h3 {
 
 /* s k i l l s   S T Y L I N G */
 
-.skill-section {
-  height: 50vh;
-}
+
 
 .skills {
   display: flex;
@@ -211,7 +213,6 @@ h5 {
 
 footer {
   background-color: black;
-  height: 100vh;
 }
 @media only screen and (max-width: 500px) {
 
@@ -248,9 +249,7 @@ footer {
   }
   
 /* A B O U T   M E  S T Y L I N G */
-.about {
-  height: 800px;
-}
+
 .about-me-container {
   width: 90vw;
   display: block;
@@ -329,3 +328,8 @@ h5 {
 }
 }
 
+
+
+.link-icon-footer {
+  color: white;
+}
