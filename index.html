@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/4b5b38c5a0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   <!-- My create imports -->
   <link rel="stylesheet" href="styles/style.css">
   <title>Luke O'Brien Portfolio</title>
@@ -49,7 +50,6 @@
     loved creating things and solving problems using code. I enrolled In General Assembly’s Software Engineering Immersive 
     course to deepen my understanding and develop my skills. I am now looking for my first role in the industry to allow me 
     to apply and build on what I have already learnt.</p>
-    <button class="cv-button">View CV</button>
   </div>
   
 </div>
@@ -71,71 +71,83 @@
 
 <!-- P O R T F O L I O    S E C T I O N -->
 
-<section class="portfolio" id=>
+<section class="portfolio" id="portfolio">
 <h2>portfolio</h2>
 <div class="portfolio-container">
+
   <div class="project-container">
-    <h5>London Transport Site </h5>
-    <img class="project-preview-img" src="images/Screenshot 2022-06-19 at 23.45.00.png">
-    
-    <p>Technologies used</p>
-    <div class="technologies used">
-      <i class="fa-brands fa-js fa-2x"></i>
-      <i class="fab fa-react fa-2x"></i>
-      <i class="fa-brands fa-css3-alt fa-2x"></i>
-      <P>A react web app which utilises the TFL Unified API it includes </P>
-      <p>the facility to check line status, view live departures and to plan journeys.</p>
-      <p>This is the first deployment and I am currently working on new features</p>
+    <div class="left-side">
+      <img class="project-preview-img" src="images/Screenshot 2022-06-19 at 23.45.00.png">
     </div>
-    <button class="portfolio-link"><a href="https://london-transport.netlify.app/" target="_blank">Live site</a></button>
-    <button class="portfolio-link"><a href="https://github.com/luke-o-brien/Transport-for-London-App" target="_blank">View code</a></button>
+    <div class="right-side">
+      <h5>London Transport Site </h5>
+      <div class="technologies-used">
+        <i class="devicon-html5-plain colored smallicon"></i>
+        <i class="devicon-css3-plain colored smallicon"></i>
+        <i class="devicon-javascript-plain colored smallicon"></i>
+        <i class="devicon-react-original colored smallicon"></i>
+        
+      </div>
+      <p>A mobile first multipage React app which utilises the TFL Unified API and allows users to view service updates, 
+        search for live departures and plan journeys. The app was built as a personal side project to help 
+        improve my react and front end development skills. This is version one and I am currently working on adding extra features
+        such as advanced journey search, google maps intergration and user accounts to provide a more personalised experience</p>
+      <div class="link-buttons-container">
+        <button class="portfolio-link"><a href="https://london-transport.netlify.app/" target="_blank">Live site</a></button>
+        <button class="portfolio-link"><a href="https://github.com/luke-o-brien/Transport-for-London-App" target="_blank">View code</a></button>
+      </div>
+    </div>
   </div>
+
   <div class="project-container">
-    <h5>Fishwatch API Site</h5>
-    <img class="project-preview-img" src="images/Screenshot 2022-05-23 at 18.24.39.png">
-    
-    <p>Technologies used</p>
-    <div class="technologies used">
-      <i class="fa-brands fa-css3-alt fa-2x"></i>
-      <i class="fa-brands fa-js fa-2x"></i>
-      <i class="fab fa-react fa-2x"></i>
-      <P>A React app which uses the fishwatch and edamam API to display information</P>
-      <p> about fish and recipes. The app makes use of local storage to create a </p>
-      <p>fish of the day element. The project was built by myself and one other person</p>
+    <div class="left-side">
+      <img class="project-preview-img" src="images/MyfoundSoundsHomepage.png">
     </div>
-    <button class="portfolio-link"><a href="https://fishwatch.netlify.app" target="_blank">Live site</a></button>
-    <button class="portfolio-link"><a href="https://github.com/luke-o-brien/Project-2" target="_blank">View code</a></button>
+    <div class="right-side">
+      <h5>MyFoundSounds MERN Project</h5>
+      <div class="technologies-used">
+        <i class="devicon-html5-plain colored smallicon"></i>
+        <i class="devicon-css3-plain colored smallicon"></i>
+        <i class="devicon-javascript-plain colored smallicon"></i>
+        <i class="devicon-react-original colored smallicon"></i>
+        <i class="devicon-nodejs-plain colored smallicon"></i>
+        <i class="devicon-mongodb-plain colored smallicon"></i>
+        <i class="devicon-express-original colored smallicon"></i>
+        <i class="devicon-sass-original colored smallicon"></i>
+        <i class="devicon-jira-plain-wordmark colored smallicon"></i>
+      </div>
+      <p>A group project which involved building a full stack react application which was a social media site based around audion. 
+        The site allows users to upload sounds from there device as well as search for and listen to other users sounds. For this project 
+        we created our own back end API using Mongo Db and Express as well as utilising the cloudinary api for file storage. To aid development 
+        of the project our group utilised Jira and scrum working to plan the project and assign tasks and track progress through the two one week sprints.</p>
+      <div class="link-buttons-container">
+        <button class="portfolio-link"><a href="https://london-transport.netlify.app/" target="_blank">Live site</a></button>
+        <button class="portfolio-link"><a href="https://github.com/luke-o-brien/Transport-for-London-App" target="_blank">View code</a></button>
+      </div>
+    </div>
   </div>
+
   <div class="project-container">
-    <h5>Pacman Game</h5>
-    <img class="project-preview-img" src="images/Retro small preview.png">
-    
-    <p>Technologies used</p>
-    <div class="technologies used">
-      <i class="fa-brands fa-js fa-2x"></i>
-      <i class="fa-brands fa-html5 fa-2x"></i>
-      <i class="fa-brands fa-css3-alt fa-2x"></i>
-      <P>This Pacman game was created primarly using javascript and includes</P>
-      <p>a desktop playable game with selectable theme and map size</p>
-      <p>there is also a menu system and leaderboard with local storage</p>
+    <div class="left-side">
+      <img class="project-preview-img" src="images/Screenshot 2022-05-23 at 18.24.39.png">
     </div>
-    <button class="portfolio-link"><a href="https://luke-o-brien.github.io/Pacman-Game/" target="_blank">Live site</a></button>
-    <button class="portfolio-link"><a href="https://github.com/luke-o-brien/Pacman-Game" target="_blank">View code</a></button>
-  </div>
-  <div class="project-container">
-    <h5>Coppa Club Clone</h5>
-    <img class="project-preview-img" src="images/Screenshot 2022-05-23 at 21.53.46.png">
-    
-    <p>Technologies used</p>
-    <div class="technologies used">
-      <i class="fa-brands fa-html5 fa-2x"></i>
-      <i class="fa-brands fa-css3-alt fa-2x"></i>
-      <P>This Is a clone of the coppa club website. The clone is made</P>
-      <p>with HTML and CSS and was based upon an older version of the website</p>
-      <p>A Screenshot of the original site can be found in the github repo</p>
+    <div class="right-side">
+      <h5>Fishwatch API Site</h5>
+      <div class="technologies-used">
+        <i class="devicon-javascript-plain colored smallicon"></i>
+        <i class="devicon-react-original colored smallicon"></i>
+        <i class="devicon-css3-plain colored smallicon"></i>
+        <i class="devicon-html5-plain colored smallicon"></i>
+      </div>
+        <p>A React app which uses the fishwatch and edamam API to display information
+        about fish and recipes. The app makes use of local storage to create a 
+        fish of the day element. The project was built by myself and one other person</p>
+      <div class="link-buttons-container">
+        <button class="portfolio-link"><a href="https://myfoundsounds.netlify.app/" target="_blank">Live site</a></button>
+        <button class="portfolio-link"><a href="https://github.com/luke-o-brien/Project-3-MERN-Backend" target="_blank">View code</a></button>
     </div>
-    <button class="portfolio-link">Live site</button>
-    <button class="portfolio-link">View code</button>
+      </div>
+    </div>
   </div>
 </div>
 </section>
