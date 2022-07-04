@@ -143,16 +143,22 @@ h3 {
 .skills {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 100px;
-  margin-bottom: 100px;
   text-align: center;
 
 }
 
 
 .icon-container {
-  display: block
+  display: block;
+  width: 24%;
+  margin-bottom:100px;
 
+}
+
+.bigicon {
+  font-size: 60px;
 }
 /* P O R T F O L I O   S T Y L I N G */
 .portfolio {
@@ -165,6 +171,8 @@ h3 {
   font-size: 25px;
   margin-right: 20px;
 }
+
+
 h5 {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
@@ -188,13 +196,14 @@ h5 {
 
 .project-container {
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-  width: 98%;
-  margin-bottom: 2%; /* (100-32*3)/2 */
+  width: 95%;
+  margin-bottom: 5vh; /* (100-32*3)/2 */
   position: relative;
   border-top: rgb(254, 233, 114) solid;
   border-width: 5px;
   display: flex;
   align-items: flex-start;
+  background-color: white;
 }
 
 .left-side {
@@ -375,3 +384,13 @@ h5 {
 .link-icon-footer {
   color: white;
 }
+
+/* .yellowbox {
+  background-color: rgb(254, 233, 114);
+  padding: 10px;
+  width: 98%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+
+} */
