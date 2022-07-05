@@ -5,8 +5,12 @@
   margin: auto;
   z-index: 0;
   font-family: 'Raleway', sans-serif;
-  overflow-x: hidden;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.bodymain {
+  overflow-y: scroll;
 }
 
 h2 {
@@ -197,7 +201,7 @@ h5 {
 .project-container {
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
   width: 95%;
-  margin-bottom: 5vh; /* (100-32*3)/2 */
+  margin-bottom: 7.5vh;
   position: relative;
   border-top: rgb(254, 233, 114) solid;
   border-width: 5px;
@@ -385,12 +389,45 @@ h5 {
   color: white;
 }
 
-/* .yellowbox {
-  background-color: rgb(254, 233, 114);
-  padding: 10px;
-  width: 98%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 
-} */
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.5); 
+}
+
+.modal-content {
+  border-top: rgb(254, 233, 114) solid;
+  border-width: 5px;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  width: 75%; 
+  text-align: center;
+  overflow: hidden;
+}
+
+.collapse {
+  color: #aaa;
+  float: right;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.collapse:hover {
+  color: black;
+  cursor: pointer;
+}
+
+
+.credentials-text {
+  margin: 20px;
+}

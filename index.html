@@ -13,9 +13,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   <!-- My create imports -->
   <link rel="stylesheet" href="styles/style.css">
+  <script src="./script.js" defer></script>
   <title>Luke O'Brien Portfolio</title>
 </head>
-<body>
+<body id="body" class="bodymain">
   <nav>
     <ul>
         <li class="push-left"><a href="#">Luke O'Brien</a></li>
@@ -125,10 +126,10 @@
         their device and search for and listen to other users sounds. For this project we created our own back end API using Mongo Db and Express along with utilising the cloudinary API for audio file storage. 
         To aid development of the project our group utilised Jira and scrum working to plan the project, assign tasks and track progress through the two one week sprints.</p>
       <div class="link-buttons-container">
-        <button class="portfolio-link"><a href="https://london-transport.netlify.app/" target="_blank">Live site</a></button>
+        <button class="portfolio-link"><a id="mfs-modal" target="_blank">Live site</a></button>
         <button class="portfolio-link"><a href="https://github.com/luke-o-brien/Transport-for-London-App" target="_blank">View code</a></button>
       </div>
-    </div>
+      
   </div>
 </div>
   <div class="project-container">
@@ -155,8 +156,43 @@
       </div>
     </div>
   </div>
+  <div class="project-container">
+    <div class="left-side">
+      <img class="project-preview-img" src="images/Retro small preview.png">
+    </div>
+    <div class="right-side">
+      <h5>Pacman Game</h5>
+      <div class="technologies-used">
+        <i class="devicon-html5-plain colored smallicon"></i>
+        <i class="devicon-css3-plain colored smallicon"></i>
+        <i class="devicon-javascript-plain colored smallicon"></i>
+      </div>
+        <p>My first sizable coding project. Built using HTML CSS and JavaScript this is a grid based pacman game which allows users to control pacman 
+          using keyboard inputs to collect pellets and capture ghosts when they are vulnerable. The games includes a leaderboard created using local storage as 
+        well as a theme and map size selector which is chosen by the user before the game begins.</p>
+      <div class="link-buttons-container">
+        <button class="portfolio-link"><a href="https://myfoundsounds.netlify.app/" target="_blank">Live site</a></button>
+        <button class="portfolio-link"><a href="https://github.com/luke-o-brien/Project-3-MERN-Backend" target="_blank">View code</a></button>
+    </div>
+      </div>
+    </div>
+  </div>
 </div>
 </section>
+<div id="mfsModal" class="modal">
+  <div class="modal-content">
+    <p class="collapse" id="collapse">return to portfolio</p>
+    <h2>This Project Requires you to create an account!</h2>
+    <p>If you do not wish to register please feel free to login with these credentials</p>
+    <div class="credentials-text">
+      <p>Username: portfoliouser</p>
+    <!-- </div>
+    <div class="credentials-text"> -->
+      <p>Password: Portfolio1!</p>
+    </div>
+    <button class="portfolio-link"><a href="https://myfoundsounds.netlify.app/" target="_blank">Continue to Live site</a></button>
+  </div>
+</div>
 <footer>
   <a class="link-icon-footer" href="https://github.com/luke-o-brien" target="_blank"><i class="fa-brands fa-github fa-2x links"></i></a>
   <a class="link-icon-footer" href="https://www.linkedin.com/in/l-obrien/" target="_blank"><i class="fa-brands fa-linkedin fa-2x links"></i></a>
