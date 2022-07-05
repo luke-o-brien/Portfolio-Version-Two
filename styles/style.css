@@ -9,17 +9,12 @@
   overflow-x: hidden;
 }
 
-.bodymain {
-  overflow-y: scroll;
-}
-
 h2 {
   margin-top: 50px;
   font-size: 40px;
   font-weight: 100;
   text-align: center;
 }
-
 
 /* H E A D E R   S T Y L I N G */
 
@@ -79,10 +74,6 @@ h4 {
   letter-spacing: 5px;
 }
 
-
-.arrow-down {
-  margin-top: 80px;
-}
 
 a {
   text-decoration: none;
@@ -384,9 +375,14 @@ h5 {
 }
 
 
+footer {
+  display: flex;
+  justify-content: center;
+}
 
 .link-icon-footer {
   color: white;
+  margin: 0px 0px 40px 0px;
 }
 
 
@@ -404,7 +400,7 @@ h5 {
   background-color: rgba(0,0,0,0.5); 
 }
 
-.modal-content {
+.modal-textbox {
   border-top: rgb(254, 233, 114) solid;
   border-width: 5px;
   background-color: #fefefe;
