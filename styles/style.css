@@ -147,7 +147,7 @@ h3 {
 
 .icon-container {
   display: block;
-  width: 24%;
+  width: 20%;
   margin-bottom:100px;
 
 }
@@ -499,6 +499,13 @@ h5 {
 
 .right-side h5 {
   font-size: 30px;
+}
+
+.icon-container {
+  display: block;
+  width: 30%;
+  margin-bottom:100px;
+
 }
 }
 
